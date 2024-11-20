@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.avatar-circle {
+  border-radius: 50%; /* Rend l'image circulaire */
+  width: 100%; /* Assure que l'image s'adapte au conteneur */
+  height: auto; /* Maintient les proportions */
+  object-fit: cover; /* Assure que l'image remplit le cercle sans déformation */
+}
+
